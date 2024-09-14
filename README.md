@@ -3,7 +3,7 @@
 We consider the steady Stokes problem defined by the following equations:
 
 $$
-\begin{align}
+\begin{align} 
     - \mu \Delta \mathbf{u} + \nabla p &= \mathbf{f} \quad \text{on} \quad \Omega, \\
     \nabla \cdot \mathbf{u} &= 0 \quad \text{on} \quad \Omega, \\
     \mathbf{u} &= 0 \quad \text{in} \quad \partial \Omega.
