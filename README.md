@@ -23,16 +23,21 @@ $$
     <h2 style="color: #00796b;">Variational Form</h2>
 </div>
 
-We set $ V = [H^{1}_{0}(\Omega)]^2 $ and 
+
+## Variational Form
+
+We set \( V = [H^{1}_{0}(\Omega)]^2 \) and 
 \( Q = L^{2}_{0}(\Omega) = \{ \mathbf{v} \in L^2(\Omega) \, | \, \int_{\Omega} \mathbf{v} \, dx = 0 \} \). 
 
 We then multiply equation (1) by \( \mathbf{v} \in V \) and equation (2) by \( \mathbf{q} \in Q \), and integrate the equations over \( \Omega \). By applying Green's formula, we get:
 
 Find \( (\mathbf{u}, \mathbf{p}) \in \mathcal{W} = \mathcal{V} \times \mathcal{Q} \) such that:
 
+1. 
 $$
-\begin{align}
-    \mu \int_{\Omega} \nabla \mathbf{u} \cdot \nabla \mathbf{v} \, dx - \int_{\Omega} \mathbf{p} \nabla \cdot \mathbf{v} \, dx &= \int_{\Omega} \mathbf{f} \cdot \mathbf{v} \, dx , \quad \forall \mathbf{v} \in V, \\
-    \int_{\Omega} \mathbf{q} \nabla \cdot \mathbf{u} \, dx &= 0, \quad \forall \mathbf{q} \in Q.
-\end{align}
+\mu \int_{\Omega} \nabla \mathbf{u} \cdot \nabla \mathbf{v} \, dx - \int_{\Omega} \mathbf{p} \nabla \cdot \mathbf{v} \, dx = \int_{\Omega} \mathbf{f} \cdot \mathbf{v} \, dx , \quad \forall \mathbf{v} \in V,
+$$
+2. 
+$$
+\int_{\Omega} \mathbf{q} \nabla \cdot \mathbf{u} \, dx = 0, \quad \forall \mathbf{q} \in Q.
 $$
