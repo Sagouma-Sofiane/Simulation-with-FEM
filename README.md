@@ -22,4 +22,4 @@ $$
 <div style="background-color: #e0f7fa; border-radius: 10px; padding: 10px; width:90%;">
     <h2 style="color: #00796b;">Variational Form</h2>
 </div>
-$H^{1}(\Omega)$
+We set V = [H^1_0(Ω)]^2 and Q = L^2_0(Ω) = { v ∈ L^2(Ω) | ∫_Ω v dx = 0 }.
