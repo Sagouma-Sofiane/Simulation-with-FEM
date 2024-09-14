@@ -1,14 +1,14 @@
-<div style="background-color: green; border-radius: 10px; width:90%;">
+<div style="background-color: green; border-radius: 10px; padding: 10px; width:90%;">
     <h2 style="color: #00796b;">Bercovier-Engelman Test</h2>
 </div>
 
 We consider the steady Stokes problem defined by the following equations:
+
 $$
 \begin{align}
     - \mu \Delta \mathbf{u} + \nabla p &= \mathbf{f} \quad \text{on} \quad \Omega, \\
     \nabla \cdot \mathbf{u} &= 0 \quad \text{on} \quad \Omega, \\
-    \mathbf{u} &= 0 \quad \text{in} \quad \partial \Omega, \\
-    %\frac{\partial \mathbf{u}}{\partial n} - p \cdot \mathbf{n} &= \mathbf{g} \quad \text{sur} \quad \Gamma_{\text{in}} \cup \Gamma_{\text{out}} = \{0,1\} \times [0,1].
+    \mathbf{u} &= 0 \quad \text{in} \quad \partial \Omega.
 \end{align}
 $$
 
