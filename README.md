@@ -19,13 +19,16 @@ $$
     p &= (x - 0.5)(y - 0.5).
 \end{aligned}
 $$
-<div style="background-color: #e0f7fa; border-radius: 10px; width:90%;">
-    <h2 style="color: #00796b;">Variational Forme</h2>
+<div style="background-color: #e0f7fa; border-radius: 10px; padding: 10px; width:90%;">
+    <h2 style="color: #00796b;">Variational Form</h2>
 </div>
 
-We set $ V= [H^{1}_{0}(\Omega)]^2 $ and $ Q=L^{2}_{0}(\Omega)$ =$\{\mathbf{v} \in L^2(\Omega), \quad \int_{\Omega} \mathbf{v}=0 \} $ We then multiply the equation (1) by $\mathbf{v} \in V$ and the equation (2) by $\mathbf{q}\in Q$, then integrate the equations over $\Omega$ and by Applying the Green’s formula, we get: 
+We set \( V = [H^{1}_{0}(\Omega)]^2 \) and 
+\( Q = L^{2}_{0}(\Omega) = \{ \mathbf{v} \in L^2(\Omega) \, | \, \int_{\Omega} \mathbf{v} \, dx = 0 \} \). 
 
-Find $(\mathbf{u}, \mathbf{p}) \in \mathcal{W} = \mathcal{V} \times \mathcal{Q}$ such that:
+We then multiply equation (1) by \( \mathbf{v} \in V \) and equation (2) by \( \mathbf{q} \in Q \), and integrate the equations over \( \Omega \). By applying Green's formula, we get:
+
+Find \( (\mathbf{u}, \mathbf{p}) \in \mathcal{W} = \mathcal{V} \times \mathcal{Q} \) such that:
 
 $$
 \begin{align}
