@@ -22,3 +22,4 @@ $$
 <div style="background-color: #e0f7fa; border-radius: 10px; padding: 10px; width:90%;">
     <h2 style="color: #00796b;">Variational Form</h2>
 </div>
+$$H^{1}(\Omega)$
