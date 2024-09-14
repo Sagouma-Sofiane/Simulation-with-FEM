@@ -25,9 +25,3 @@ $$
 
 
 ## Variational Form
-
-We set \( V = [H^{1}_{0}(\Omega)]^2 \) and \( Q = L^{2}_{0}(\Omega) = \{ \mathbf{v} \in L^2(\Omega) \, | \, \int_{\Omega} \mathbf{v} \, dx = 0 \} \).
-
-We then multiply equation (1) by \( \mathbf{v} \in V \) and equation (2) by \( \mathbf{q} \in Q \), and integrate the equations over \( \Omega \). By applying Green's formula, we get:
-
-Find \( (\mathbf{u}, \mathbf{p}) \in \mathcal{W} = \mathcal{V} \times \mathcal{Q} \) such that:
