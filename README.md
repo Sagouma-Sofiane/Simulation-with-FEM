@@ -23,3 +23,4 @@ $$
     <h2 style="color: #00796b;">Variational Form</h2>
 </div>
 We set V = [H^1_0(Ω)]^2 and Q = L^2_0(Ω) = { v ∈ L^2(Ω) | ∫_Ω v dx = 0 }.
+`H^{1}(\Omega)`
