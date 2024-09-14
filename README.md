@@ -4,7 +4,7 @@ We consider the steady Stokes problem defined by the following equations:
 
 $$
 \begin{align}
-    - \mu \Delta \mathbf{u} + \nabla p &= \mathbf{f} \quad \text{on} \quad \Omega, \\
+    - \mu \Delta \mathbf{u} + \nabla p &= \mathbf{f} \quad \text{on} \quad \Omega, \tag{1} \\
     \nabla \cdot \mathbf{u} &= 0 \quad \text{on} \quad \Omega, \\
     \mathbf{u} &= 0 \quad \text{in} \quad \partial \Omega.
 \end{align}
